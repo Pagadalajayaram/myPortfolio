@@ -1,80 +1,113 @@
-<<<<<<< HEAD
-<h2 align="center">
-  Portfolio Website - v2.0<br/>
-  <a href="https://soumyajit.vercel.app/" target="_blank">soumyajit.tech</a>
-</h2>
-<div align="center">
-  <img alt="Demo" src="./Images/readme-img1.png" />
-</div>
+# 🌐 Pagadala Jayaram — Personal Portfolio
 
-<br/>
+[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
+[![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)](https://nodejs.org/)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com/)
 
-<center>
+A personal portfolio website showcasing my projects, technical skills, and resume — built with React.js and deployed on Vercel.
 
-[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) &nbsp;
-[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com) &nbsp;
-[![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com) &nbsp;
-![GitHub Repo stars](https://img.shields.io/github/stars/soumyajit4419/Portfolio?color=red&logo=github&style=for-the-badge) &nbsp;
-![GitHub forks](https://img.shields.io/github/forks/soumyajit4419/Portfolio?color=red&logo=github&style=for-the-badge)
+🔗 **Live Demo:** [pagadalajayaram.vercel.app](https://pagadalajayaram.vercel.app)
 
-</center>
 
-<h3 align="center">
-    🔹
-    <a href="https://github.com/soumyajit4419/Portfolio/issues">Report Bug</a> &nbsp; &nbsp;
-    🔹
-    <a href="https://github.com/soumyajit4419/Portfolio/issues">Request Feature</a>
-</h3>
+## ✨ Features
 
-## TL;DR
+- 📖 **Multi-Page Layout** — Separate sections for About, Skills, Projects, and Contact
+- 🎨 **Styled with React-Bootstrap & CSS** — Easy to customize colors and themes
+- 📱 **Fully Responsive** — Works seamlessly on all screen sizes
+- ⚡ **Fast & Deployed on Vercel** — Optimized for performance
 
-You can fork this repo to modify and make changes of your own. Please give me proper credit by linking back to [Soumyajit4419](https://github.com/soumyajit4419/Portfolio). Thanks!
+---
 
-## Built With
+## 🛠 Built With
 
-My personal portfolio <a href="https://soumyajit.vercel.app/" target="_blank">soumyajit.tech</a> which features some of my github projects as well as my resume and technical skills.<br/>
+- **React.js** — Frontend UI library
+- **Node.js** — JavaScript runtime
+- **Express.js** — Backend framework
+- **CSS3** — Styling
+- **React-Bootstrap** — UI component library
+- **Vercel** — Deployment platform
 
-This project was built using these technologies.
+---
 
-- React.js
-- Node.js
-- Express.js
-- CSS3
-- VsCode
-- Vercel
+## 🚀 Getting Started
 
-## Features
+### Prerequisites
 
-**📖 Multi-Page Layout**
+Make sure you have the following installed on your machine:
 
-**🎨 Styled with React-Bootstrap and Css with easy to customize colors**
+- [Node.js](https://nodejs.org/) (v14 or above)
+- [Git](https://git-scm.com/)
 
-**📱 Fully Responsive**
+### Installation
 
-## Getting Started
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/Pagadalajayaram/myPortfolio.git
+   cd myPortfolio
+   ```
 
-Clone down this repository. You will need `node.js` and `git` installed globally on your machine.
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
 
-## 🛠 Installation and Setup Instructions
+3. **Start the development server**
+   ```bash
+   npm start
+   ```
 
-1. Installation: `npm install`
+   The app will run in development mode. Open [http://localhost:3000](http://localhost:3000) to view it in the browser. The page will reload automatically on edits.
 
-2. In the project directory, you can run: `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-The page will reload if you make edits.
+## 📁 Project Structure
 
-## Usage Instructions
+```
+myPortfolio/
+├── Images/          # Static images used in the project
+├── public/          # Public assets (index.html, favicon, etc.)
+├── src/
+│   └── components/  # All React components (edit your info here)
+├── .gitignore
+├── package.json
+└── README.md
+```
 
-Open the project folder and Navigate to `/src/components/`. <br/>
-You will find all the components used and you can edit your information accordingly.
+---
 
-### Show your support
+## ✏️ Customization
 
-Give a ⭐ if you like this website!
+To update the portfolio with your own information:
 
-<a href="https://www.buymeacoffee.com/soumyajit4419" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-violet.png" alt="Buy Me A Coffee" height= "60px" width= "217px" ></a>
-=======
-# myPortfolio
->>>>>>> 22954188bdf453b674a3e21d48fc51059c8d7748
+1. Navigate to the `/src/components/` directory.
+2. Edit each component file with your personal details — name, bio, skills, projects, social links, etc.
+3. Replace images in the `/Images/` folder as needed.
+
+---
+
+## 📦 Deployment
+
+This project is deployed on **Vercel**. To deploy your own version:
+
+1. Push the project to your GitHub account.
+2. Import the repository on [vercel.com](https://vercel.com/).
+3. Vercel will auto-detect the React app and deploy it.
+
+---
+
+## 🐛 Issues & Feature Requests
+
+If you find a bug or want to request a new feature, please open an issue:
+
+👉 [GitHub Issues](https://github.com/Pagadalajayaram/myPortfolio/issues)
+
+---
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+
+
+> ⭐ If you like this project, consider giving it a star on GitHub!
