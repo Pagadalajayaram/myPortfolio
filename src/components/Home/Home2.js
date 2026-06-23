@@ -19,12 +19,11 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              I am passionate about programming and always eager to learn new technologies and improve my skills. 🤷‍♂️
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> Java,c++. </b>
+                <b className="purple"> Java,Python. </b>
               </i>
               <br />
               <br />
@@ -33,13 +32,13 @@ function Home2() {
                 <b className="purple">Web Technologies and Products </b> and
                 also in areas related to{" "}
                 <b className="purple">
-                  Blockchain.
+                  System Design.
                 </b>
               </i>
               <br />
               <br />
               Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
+              with <b className="purple">Springboot</b> and
               <i>
                 <b className="purple">
                   {" "}
@@ -48,7 +47,7 @@ function Home2() {
               </i>
               &nbsp; like
               <i>
-                <b className="purple"> React.js and Next.js</b>
+                <b className="purple"> React.js</b>
               </i>
             </p>
           </Col>
