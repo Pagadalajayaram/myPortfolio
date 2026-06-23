@@ -244,6 +244,8 @@ button:focus {
 }
 #tsparticles {
   position: fixed !important;
+  z-index: 0 !important;
+  pointer-events: none !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
   width: 100%;
@@ -256,7 +258,7 @@ button:focus {
 
 .home-section {
   position: relative;
-  z-index: -1;
+  z-index: 1;
   background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
   background-position: top center;
   background-repeat: no-repeat;
@@ -265,6 +267,8 @@ button:focus {
 }
 
 .home-content {
+  position: relative;
+  z-index: 1;
   padding: 9rem 0 2rem !important;
   color: whitesmoke;
   text-align: left;

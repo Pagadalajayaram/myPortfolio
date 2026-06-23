@@ -1,13 +1,10 @@
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
-
+import campus from "../../Assets/Projects/campusconnect.png";
+import expense from "../../Assets/Projects/expense-tracker.png";
+import alert from "../../Assets/Projects/alert-365png.png";
+import portfolio from "../../Assets/Projects/portfolio.png";
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -22,67 +19,42 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={campus}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={bitsOfCode}
-              isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Campus Connect"
+              description="A full-stack college club management platform built with React, Spring Boot, and MySQL that enables club administration, event management, recruitments, announcements, and student engagement through role-based dashboards"
+              ghLink="https://github.com/KRISHNAVAMSIMAMIDI/campus-connect"
+              demoLink="https://campus-connect.web.app/"
             />
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={expense}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Expense Tracker"
+              description="Expense Tracker is a simple and intuitive Android application to manage your finances. Built with Jetpack Compose, the app allows users to track income and expenses, view recent transactions, and get an overview of their financial status."
+              ghLink="https://github.com/Pagadalajayaram/Expence-TrackerApp"
+              demoLink="https://play.google.com/store/apps/details?id=com.jayaram.expensetracker"
             />
           </Col>
-
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={alert}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Alert-365"
+              description="Developed a web-based Find and Reward Application that helps users report and search for missing people. Users can post details of missing individuals, upload photos, and offer rewards for useful information. The platform aims to connect communities and increase the chances of locating missing persons quickly and efficiently."
+              ghLink="https://github.com/Pagadalajayaram/find-missing-people"
+              demoLink="https://alert-365-22s8aawr7-pagadala-jaya-rams-projects.vercel.app/"
             />
           </Col>
-
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={portfolio}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="Portfolio"
+              description="A personal portfolio website showcasing my projects, technical skills, certifications, and resume. Built using React.js with a responsive and modern user interface, and deployed on Vercel for fast and reliable access."
+              ghLink="https://github.com/Pagadalajayaram/myPortfolio"
+              demoLink="https://pagadalajayaram.vercel.app/"
             />
           </Col>
         </Row>

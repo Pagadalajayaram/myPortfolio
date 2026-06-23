@@ -10,20 +10,20 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">PAGADALA JAYA RAM </span>
             from <span className="purple"> Vizag, India.</span>
-            I persuing Btech CSE at Gayatri Vidya Parishad College of Engineering.
+            I am  persuing Btech CSE at Gayatri Vidya Parishad College of Engineering.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImPointRight /> Travelling
             </li>
             <li className="about-activity">
               <ImPointRight /> Reading Books
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <ImPointRight /> Playing Games
             </li>
           </ul>
 
